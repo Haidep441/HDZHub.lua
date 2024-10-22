@@ -20,7 +20,7 @@ local fask = task
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "AnDepZai Hub | Free Scripts",
+    Title = "HaiDepZai Hub | Free Scripts",
     SubTitle = "",
     TabWidth = 160,
     Size = UDim2.fromOffset(600, 325),
@@ -58,7 +58,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 55)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=18285114199"
+ImageButton.Image = "http://www.roblox.com/asset/?id=75765403283950"
 
 UICorner.CornerRadius = UDim.new(0, 10) 
 UICorner.Parent = ImageButton
@@ -1309,10 +1309,10 @@ end
 
 ---------------SettingTab
 Tabs.infor:AddButton({
-        Title = "Discord | AnDepZai Hub",
+        Title = "Discord | HaiDepZai Hub",
         Description = "Copy Link Discord",
         Callback = function()
-        setclipboard("https://discord.com/invite/EV7vagx6CT")
+        setclipboard("ditmemay")
         end
     })
 ---------------TabStatus
@@ -1592,16 +1592,16 @@ LPH_JIT_MAX(function()
 	end)
 end)()
 
-local SelectFastAttackMode = (SelectFastAttackMode or "AnDepZai Fast")
+local SelectFastAttackMode = (SelectFastAttackMode or "HaiDepZai Fast")
 
-SelectedFastAttackMode = {"Normal Attack","Fast Attack","AnDepZai Fast"}
+SelectedFastAttackMode = {"Normal Attack","Fast Attack","HaiDepZai Fast"}
 
 local function ChangeModeFastAttack(SelectFastAttackMode)
 	if SelectFastAttackMode == "Normal Attack" then
 		FireCooldown = 0.1
 	elseif SelectFastAttackMode == "Fast Attack" then
 		FireCooldown = 0.07
-	elseif SelectFastAttackMode == "AnDepZai Fast" then
+	elseif SelectFastAttackMode == "HaiDepZai Fast" then
 		FireCooldown = 0.02
 	end
 end
